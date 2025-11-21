@@ -3,13 +3,13 @@ main = "dist/index.js"
 compatibility_date = "2025-04-09"
 compatibility_flags = ["nodejs_compat"]
 [vars]
-BASE_URL = ""
-PORT = ""
-USERNAME = ""
+BASE_URL = "www.nasdeepdive.website"
+PORT = "3100"
+USERNAME = "ai"
 
 [[kv_namespaces]]
 binding = "UGLINK_CACHE"
-id = ""  # Replace with your actual KV namespace ID from Cloudflare dashboard
+id = "59d882e0cd0041e69baf7dbe50134981"  # Replace with your actual KV namespace ID from Cloudflare dashboard
 
 [observability.logs]
 enabled = true
